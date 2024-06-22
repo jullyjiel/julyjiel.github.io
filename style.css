@@ -1,0 +1,214 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: rgb(242, 242, 235);
+	font-family: serif, "Times New Roman", Times, serif;
+	font-size: small;
+}
+
+
+.container {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+h3 {
+	font-size: 20px;
+	background-color: rgb(97, 80, 70);
+	border-radius: 20px;
+	color: aliceblue;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 45px;
+}
+
+h4 {
+	color: rgb(97, 80, 70);
+	font-size: 22px;
+}
+
+.navbar {
+	background-color: rgb(97, 80, 70);
+	height: 60px;
+	display: flex;
+	justify-content: flex-end;
+	font-size: 20px;
+}
+
+.navbar .navbar-inner {
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+}
+
+.navbar .navbar-inner ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+.navbar .navbar-inner ul li {
+	float: left;
+	margin-right: 20px;
+}
+
+.navbar .navbar-inner ul li a:visited,
+.navbar .navbar-inner ul li a:link {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+
+.navbar .navbar-inner ul li a:hover {
+	color: orange;
+}
+
+.banner img {
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+
+footer {
+	background-color: rgb(97, 80, 70);
+	text-align: center;
+	line-height: 50px;
+	margin-top: 15px;
+	color: aliceblue;
+	font-size: 15px;
+}
+
+.home {
+	display: flex;
+	font-size: 20px;
+	line-height: 40px;
+}
+
+.home .left {
+	margin-right: 10px;
+}
+
+.home .right {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+
+.hobby-box .item {
+	display: flex;
+	border-bottom: 1px solid #999;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+
+.hobby-box .item .content {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	font-size: 17px;
+	line-height: 30px;
+	background-color: rgb(247, 234, 214);
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+table {
+	margin-top: 7px;
+	width: 100%;
+	border: 1px solid black;
+}
+
+th {
+	padding: 10px;
+	border-bottom: 1px solid black;
+	font-size: 20px;
+	border-left: 1px solid black;
+}
+
+td {
+	padding: 10px;
+	font-size: 20px;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	text-align: center;
+}
+
+tr:nth-child(even) {
+	background-color: rgb(221, 202, 202);
+}
+
+.people-table-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0px 0 10px 0;
+}
+
+.my-history-box {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.my-history-box .item {
+	width: 300px;
+	margin-bottom: 20px;
+	height: 330px;
+}
+
+.my-history-box .item .title {
+	font-weight: bold;
+	background-color: rgb(129, 106, 93);
+	color: rgb(241, 237, 216);
+	height: 30px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 19px;
+}
+
+.my-history-box .item .content {
+	font-size: 18px;
+	margin-top: 6px;
+}
+
+.my-home {
+	display: flex;
+	font-size: 20px;
+	line-height: 40px;
+}
+
+.my-home .left {
+	margin-right: 10px;
+}
+
+.my-home .right {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.message-box {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.message-box-inner {
+	width: 400px;
+	height: 150px;
+	border: #999 solid 1px;
+}
+
+.message-box-inner .title {
+	text-align: center;
+}
+
+.message-box-inner div {
+	margin-top: 10px;
+}
